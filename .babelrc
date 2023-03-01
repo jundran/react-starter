@@ -1,0 +1,12 @@
+{
+  "presets": [
+		[
+			// https://babeljs.io/docs/babel-preset-react
+			"@babel/preset-react", {
+				// Transpile JSX without importing React
+				// Starting from Babel 8, "automatic" will be the default runtime
+				"runtime": "automatic"
+			}
+		]
+	]
+}
