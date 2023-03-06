@@ -1,0 +1,7 @@
+{
+	"scripts": {
+    "build": "webpack build --mode=production",
+    "start": "webpack serve --mode=development",
+    "commit": "npm run build && git add . && git status"
+  }
+}
