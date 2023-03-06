@@ -1,0 +1,17 @@
+{
+  "presets": [
+		[
+			// https://babeljs.io/docs/babel-preset-react
+			"@babel/preset-react", {
+				// Transpile JSX without importing React
+				// Starting from Babel 8, "automatic" will be the default runtime
+				"runtime": "automatic"
+			}
+		]
+	],
+
+	// When no targets are specified: Babel will assume you are targeting the oldest browsers possible.
+	// https://babeljs.io/docs/options#no-targets
+	// Defaults are: > 0.5%, last 2 versions, Firefox ESR, not dead
+	"targets": "defaults"
+}
